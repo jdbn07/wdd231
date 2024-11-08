@@ -3,9 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WDD231</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Portafolio of Jim Banchon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <script src="scripts/scripts.js" defer></script>
 </head>
 <body>
-  <h1>WDD 231</h1>
+
+  <!-- Header Section -->
+  <header class="header">
+      <img src="images/profile.jpg" alt="Jim Davis Banchon Nunez">
+      <h1>Jim Davis Banchon Nunez</h1>
+      <span class="menu-icon" onclick="toggleMenu()">☰</span>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#">Chamber</a>
+      <a href="https://github.com/jdbn07">GitHub Profile</a>
+      <a href="https://www.linkedin.com/in/jim-banchon-nunez/">LinkedIn</a>
+  </nav>
+
+  <!-- Main Content -->
+  <section class="main">
+      <div class="card">
+          <h2>Course Work</h2>
+          <ul>
+              <li></li>
+              <li></li>
+          </ul>
+      </div>
+      <div class="card">
+          <h2>Toloria, Madagascar</h2>
+          <img src="https://via.placeholder.com/150" alt="Baobab Trees">
+          <p>Baobab Trees</p>
+      </div>
+  </section>
+
+  <!-- Certificate Section -->
+  <section class="certificate-section">
+      <div class="certificate-header">
+          <h2>Web and Computer Programming Certificate</h2>
+      </div>
+      <div class="buttons">
+          <button>All</button>
+          <button>CSE</button>
+          <button>WDD</button>
+      </div>
+      <div class="courses">
+          <div class="course">CSE 110</div>
+          <div class="course">WDD 130</div>
+          <div class="course">CSE 111</div>
+          <div class="course">CSE 210</div>
+          <div class="course">WDD 131</div>
+          <div class="course">WDD 231</div>
+      </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p><span id="currentYear"></span> 🧑🏻‍💻 Jim Davis Banchon Nunez 🧑🏻‍💻 Guayaquil, Ecuador (EC)</p>
+    <p class="highlight" id="lastModified"></p>
+  </footer>
+
 </body>
 </html>

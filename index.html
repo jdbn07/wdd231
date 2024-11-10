@@ -1,79 +1,59 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/styles.css">
-  <script src="scripts/scripts.js" defer></script>
-  <title>Portafolio of Jim Banchon</title>
-  <meta name="description" content="This is an example assignment portal, home page for WDD 231">
-  <meta name="author" content="Jim Davis Banchon Nunez">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/stylesl.css">
+    <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/coursesFilter.js" defer=""></script>
+    <title>Home Page - Jim Davis Banchon Nunez - WDD231</title>
+    <meta name="description" content="WDD 231 - Home Page - Jim Davis Banchon Nunez">
+    <meta name="author" content="Jim Davis Banchon Nunez BYU-Idaho WDD 231 course, Home page">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <!-- Header Section -->
-  <header class="header">
-      <img src="images/profile.jpg" alt="Jim Davis Banchon Nunez">
-      <h1>Jim Davis Banchon Nunez</h1>
-      <span class="menu-icon" onclick="toggleMenu()">☰</span>
-  
-
-  <!-- Navigation -->
-  <nav class="nav">
-      <a href="#">Home</a>
-      <a href="#">Chamber</a>
-      <a href="https://github.com/jdbn07">GitHub Profile</a>
-      <a href="https://www.linkedin.com/in/jim-banchon-nunez/">LinkedIn</a>
-  </nav>
-</header>
-<main>
-    <!-- Main Content -->
-  <section class="main">
-      <div class="card">
-          <h2>Course Work</h2>
-          <ul>
-              <li></li>
-              <li></li>
-          </ul>
-      </div>
-      <div class="card">
-          <h2>Guayaquil,Guayas, Ecuador</h2>
-          <img src="images/atardecer_guayaquil.jpg" alt="Malecon 2000" width="300">
-          <p>Guayaquil sunset</p>
-      </div>
-  </section>
-
-  <!-- Certificate Section -->
-  <section class="certificate-section">
-      <div class="certificate-header">
-          <h2>Web and Computer Programming Certificate</h2>
-      </div>
-      <div class="buttons">
-          <button>All</button>
-          <button>CSE</button>
-          <button>WDD</button>
-      </div>
-      <div class="courses">
-          <div class="course">CSE 110</div>
-          <div class="course">WDD 130</div>
-          <div class="course">CSE 111</div>
-          <div class="course">CSE 210</div>
-          <div class="course">WDD 131</div>
-          <div class="course">WDD 231</div>
-      </div>
-  </section>
-
-
-</main>
-  <!-- Footer Section -->
+    <header>
+        <img src="images/profile.jpg" alt="Jim Davis Banchon Nunez profile photo" width="100">
+        <h1>Jim Davis Banchon Nunez</h1>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="#">Chamber</a>
+        <a href="https://github.com/jdbn07">GitHub</a>
+        <a href="https://www.linkedin.com/in/jim-banchon-nunez/">LinkedIn</a>
+    </nav>
+    <main>
+        <section class="courseWork">
+            <h2>Course Work</h2>
+            <p># </p>
+            <p># </p>
+            <p># </p>
+        </section>
+        <section class="city">
+            <h2>Guayaquil, Guayas, Ecuador</h2>
+            <figure>
+                <img src="images/atardecer_guayaquil.jpg" alt="Sunset of Guayaquil" width="300">
+                <figcaption>Sunset of Guayaquil</figcaption>
+            </figure>
+        </section>
+        <section class="certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="courseButtons">
+                <button id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
+            </div>
+            <div id="coursesContainer" class="courses"></div>
+        </section>
+    </main>
+    <!-- Footer Section -->
   <footer class="footer">
     <p><span id="currentYear"></span> 🧑🏻‍💻 Jim Davis Banchon Nunez 🧑🏻‍💻 Guayaquil, Ecuador (EC)</p>
-    <p>Última modificación: <span id="lastModified"></span></p>
+    <p>Last Modified: <span id="lastModified"></span></p>
   </footer>
-
 </body>
 </html>

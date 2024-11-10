@@ -20,7 +20,7 @@
   background-color: #f5f1e5;
   }
 
-  /* HEADER */
+  /* header */
 
   header{
       display: flex;
@@ -73,9 +73,9 @@
   display: none;
 }
 
-  /* HEADER */
+  /* header */
 
-  /* MAIN */
+  /* main */
 
   main{
       margin-top: 1rem;
@@ -207,7 +207,7 @@
 
 
 
-  /* Footer */
+  /* footer */
 
   footer{
     background-color: #374a3a;

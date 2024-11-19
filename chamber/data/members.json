@@ -1,0 +1,67 @@
+{
+  "members": [
+    {
+      "name": "Grupo El Rosado",
+      "address": "9 de Octubre y Boyaca",
+      "phoneNumbers": "(+593) 43702400",
+      "website": "https://www.elrosado.com/",
+      "imageUrl": "https://www.elrosado.com/Images/Inicio-Pagina-CER-NEW.jpg",
+      "membershipLevel": 3,
+      "membershipPrivileges": "Gold"
+    },
+    {
+      "name": "Corporacion FAVORITA",
+      "address": "Quito, Ecuador: Av. General Enríquez vía Cotogchoa",
+      "phoneNumbers": "1800 Favorita (328 674) – 1800 Supermaxi (787376)",
+      "website": "https://www.corporacionfavorita.com/",
+      "imageUrl": "https://www.corporacionfavorita.com/wp-content/uploads/2020/03/area-comercial-1.jpg",
+      "membershipLevel": 2,
+      "membershipPrivileges": "Silver"
+    },
+    {
+      "name": "Seguros Equinoccial",
+      "address": "De las Hiedras N41-130 y Av. De Los Granados",
+      "phoneNumbers": "18003784666",
+      "website": "https://segurosequinoccial.com/",
+      "imageUrl": "https://segurosequinoccial.com/wp-content/uploads/2023/02/equinoccial-respaldo-internacional.jpg.webp",
+      "membershipLevel": 1,
+      "membershipPrivileges": "Member"
+    },
+    {
+      "name": "Juan Marcet",
+      "address": "Calle del Batán s/n y Av. 12 de Abril - C.C. Los Nogales",
+      "phoneNumbers": "02 4016176 / 04-4001077 Ext. 2701 - 2702",
+      "website": "https://juanmarcet.com/",
+      "imageUrl": "https://juanmarcet.com/wp-content/uploads/2020/09/header-tiendas.jpg",
+      "membershipLevel": 3,
+      "membershipPrivileges": "Gold"
+    },
+    {
+      "name": "Grupo Torres & Torres",
+      "address": "Calle Rosavín Mz 53 - SL 6 y Calle Cobre / Vía a Daule Km 15",
+      "phoneNumbers": "(+593) 95 923 6976",
+      "website": "https://www.torresytorres.com/",
+      "imageUrl": "https://www.torresytorres.com/wp-content/uploads/2022/08/QS-equipo.png",
+      "membershipLevel": 3,
+      "membershipPrivileges": "Gold"
+    },
+    {
+      "name": "OmniHospital",
+      "address": "Av. Juan Tanca Marengo, Guayaquil 090513",
+      "phoneNumbers": "(+593)4210-9000",
+      "website": "https://omnihospital.ec/",
+      "imageUrl": "https://omnihospital.ec/wp-content/uploads/2024/06/FOTO-GRUPAL-OMNI.jpg",
+      "membershipLevel": 2,
+      "membershipPrivileges": "Silver"
+    },
+    {
+      "name": "Disensa",
+      "address": "Colinas De La Alborada Manzana 785 Villa 2",
+      "phoneNumbers": "(+593)4218-5673",
+      "website": "https://disensa.com.ec/",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1a6b5zNveQq6_zicBTqDUw8OBY-KWUOrsKw&s",
+      "membershipLevel": 3,
+      "membershipPrivileges": "Gold"
+    }
+  ]
+}

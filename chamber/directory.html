@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guayaquil Chamber of Commerce</title>
+    <meta name="description" content="Guayaquil - Chamber of Commerce - Directory - WDD231">
+    <meta name="author" content="Guayaquil - Chamber of Commerce">
+    <meta property="og:title" content="Guayaquil - Chamber of Commerce - Directory - WDD231">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.lacamara.org/website/wp-content/uploads/2023/11/Edificio-CCG-Av-Olmedo.jpg">
+    <meta property="og:url" content="https://jdbn07.github.io/wdd231/chamber/directory.html">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber_short.css">
+    <link rel="stylesheet" href="styles/chamber_large.css">
+    <script src="scripts/currentYear.js" defer></script>
+    <script src="scripts/lastModified.js" defer></script>
+    <script src="scripts/burguerButton.js" defer></script>
+    <script src="scripts/companiesCards.js" defer></script>
+    <script src="scripts/currentPage.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/guayaquilcc_logo.png" alt="Guayaquil Chamber of Commerce" width="120" loading="lazy">
+        <div class="header_left">
+            <h1>Guayaquil</h1>
+            <p>Chamber of Commerce</p>
+        </div>
+        <div class="header_right">
+            <a id="menu" href="#"></a>
+            <nav class="navigation">
+                <a href="#">Home</a>
+                <a href="directory.html" class="active">Directory</a>
+                <a href="#">Join</a>
+                <a href="#">Discover</a>
+            </nav>
+         </div>
+    </header>
+    <main>
+        <div class="menu">
+            <button id="grid">
+                <img src="images/grid.png" alt="Grid View" width="70">
+            </button>
+            <button id="list">
+                <img src="images/list.png" alt="List View" width="70">
+            </button>
+        </div>
+        <div id="cards" class="grid"></div>
+    </main>
+    <footer>
+        <div class="info_left">
+            <h3>Guayaquil Chamber of Commerce</h3>
+            <p>Av. Francisco de Orellana y</p>
+            <p>Miguel H. Alcívar, Edificio Las</p>
+            <p>Cámaras, Torre A, Pisos 2 y 3</p>
+            <p>info@lacamara.org</p>
+            <p>+593 4 2596100</p>
+        </div>
+        <div class="socialMedia_images">
+            <a href="https://facebook.com">
+                <img src="images/facebook_icon.webp" alt="Facebook Logo" loading="lazy" width="50">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/x_icon.webp" alt="Twitter" loading="lazy" width="50">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram_icon.webp" alt="Instagram" loading="lazy" width="50">
+            </a>
+        </div>
+        <div class="info_right">
+            <p>WDD231 Class Project</p>
+            <p>Jim Davis Banchon Nunez</p>
+            <p>©️ <span id="currentyear"></span> Guayaquil Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

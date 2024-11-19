@@ -1,0 +1,245 @@
+/* @media screen and (max-width: 56.24rem){ */
+:root{
+  --backgroundColor: rgb(36, 8, 70);
+        --navBackgroundColor: rgba(4, 50, 4, 0.712);
+        --titleColor: rgb(255, 255, 255);
+        --navElementsColor: rgb(255, 255, 255);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Raleway", serif;
+  font-weight: 400;
+margin: 0 auto;
+  background-color: rgb(128, 188, 213);
+}
+
+/* HEADER */
+
+header{
+  justify-content: center;
+  background-color: var(--backgroundColor);
+}
+
+.header_left{
+  align-items: center;
+  align-content: center;
+  padding-left: 1rem;
+  color: white;
+}
+
+.header_left h1{
+  font-size: 2.5rem;
+  padding-bottom: .5rem;
+  margin-bottom: 0;
+  margin-top: .5rem;
+  position: absolute;
+  top: 2px;
+  left: 92px;
+}
+
+header img{
+  width: 80px;
+  margin-left: .5rem;
+}
+
+.header_left p {
+  position: absolute;
+  top: 50px;
+  left: 90px;
+}
+
+.header_right{
+  align-items: center;
+  align-content: end;
+}
+
+.navigation{
+  display: none;
+}
+
+.navigation.open{
+  display: flex; /* Mostrar navegación cuando el menú está abierto */ 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  position: relative; 
+  top: 0; /* Ajustar según sea necesario */ 
+  width: 100%; 
+  background-color: rgb(22, 99, 182);
+  list-style: none;
+}
+
+.navigation a{
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.navigation a:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgb(255, 255, 255);
+}
+
+#menu {
+  font-size: 2.5rem;
+  border: 0;
+  background: none;
+  color: #000;
+  position: absolute;
+  right: 8px;
+  top: 18px;
+  padding: 0 0 30px 0;
+  text-decoration: none;
+}
+
+#menu::before {
+  content: "☰";
+  color: rgb(255, 255, 255);
+}
+
+#menu.open::before {
+  content: "X";
+}
+
+nav.open a {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* MENU */
+
+/* HEADER */
+
+/* MAIN */
+
+/* GRID */
+
+.grid{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.grid section{
+  background-color: rgb(111, 118, 185);
+  text-align: center;
+  min-height: 350px;
+}
+
+.grid h2, .list h2{
+  color: white;
+  background-color: var(--backgroundColor);
+  text-align: center;
+  padding: 1rem;
+}
+
+section p, section a{
+  padding: .5rem;
+  font-size: 1.2rem;
+}
+
+section a{
+  color: navy;
+  text-decoration: underline;
+}
+
+section img{
+  padding: .5rem;
+  padding-top: 1rem;
+}
+
+.menu { 
+  display: flex; 
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+section{
+  border: 1px solid grey;
+  border-radius: 15px;
+}
+
+/* GRID */
+
+/* LIST */
+
+.list{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.list section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e7f6f8;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.list img{
+  display: none;
+}
+
+.list section:nth-child(even) {
+  background-color: rgb(134, 187, 243);
+}
+
+.list h2, .list p, .list a {
+  display: inline;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.list h2{
+  background-color: transparent;
+  color: black;
+}
+
+.list a {
+  color: var(--backgroundColor);
+  text-decoration: underline;
+}
+
+/* LIST */
+
+/* MAIN */
+/* FOOTER */
+
+footer{
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer .info_left{
+  margin-top: .5rem;
+  margin-bottom: 2rem;
+}
+
+footer .socialMedia_images{
+  margin-bottom: 2rem;
+}

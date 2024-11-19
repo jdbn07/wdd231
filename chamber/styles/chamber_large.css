@@ -1,0 +1,134 @@
+@media screen and (min-width: 56.25rem){
+    :root{
+        --backgroundColor: rgb(36, 8, 70);
+        --navBackgroundColor: rgba(4, 50, 4, 0.712);
+        --titleColor: rgb(255, 255, 255);
+        --navElementsColor: rgb(255, 255, 255);
+    }
+
+    /* *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } */
+
+    body{
+		max-width: 1300px;
+        background-color: rgb(128, 188, 213);
+    }
+
+    /* HEADER */
+
+    header { 
+        display: grid;
+        grid-template-columns: .1fr 1fr 1fr;
+        background-color: var(--backgroundColor);
+    }
+
+    header img{
+        width: 120px;
+    }
+
+    .header_left h1{
+        position: relative;
+        top: -1px;
+        left: 20px;
+        right: 200px;
+    }
+
+    .header_left p {
+        position: relative;
+        top: -12px;
+        left: 17px;
+    }
+
+    .navigation{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .navigation a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: white;
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .navigation a.active {
+        border-bottom: 10px solid white;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    /* HEADER */
+
+    /* MAIN */
+
+    /* GRID */
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem;
+        column-gap: 1rem;
+        row-gap: 1rem;
+    }
+    
+    /* GRID */
+    
+    /* LIST */
+
+    .list section{
+        flex-direction: row;
+    }
+
+    /* LIST */
+
+    /* MAIN */
+
+    /* FOOTER */
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: white;
+        color:black;
+        padding: 1rem;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .info_left h3, .info_left p{
+        padding: .2rem;
+        padding-left: 5rem;
+        justify-content: center;
+    }
+
+    .socialMedia_images{
+        text-align: center;
+    }
+
+    .socialMedia_images img{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .info_right{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        text-align: right;
+        padding-right: 5rem;
+    }
+
+    .info_right p{
+        padding: .2rem;
+    }
+}

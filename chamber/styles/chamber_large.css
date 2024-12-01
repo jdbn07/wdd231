@@ -159,5 +159,12 @@
         column-gap: 1rem;
         padding: 1rem;
     }
+    .joinContainer{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        column-gap: 6rem;
+    }
 
 }

@@ -21,8 +21,7 @@
     <script src="scripts/lastModified.js" defer></script>
     <script src="scripts/burguerButton.js" defer></script>
     <script src="scripts/currentPage.js" defer></script>
-    <script src="scripts/openWeather.js" defer></script>
-    <script src="scripts/spotlight.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
 </head>
 <body>
     <header>
@@ -42,33 +41,7 @@
          </div>
     </header>
     <main>
-        <div class="hero">
-            <img src="images/chamber_guayaquil.jpg" alt="Palace of Chamber - Guayaquil City">
-            <a href="join.html" class="callToAction">Tell me more!</a>
-        </div>
-        <h1 class="homeTitle">Home</h1>
-        <div class="home">
-            <div class="events">
-                <h2>Events</h2>
-            </div>
-            <div class="currentWeather">
-                <h2>Current Weather</h2>
-                <img id="weather-icon" src="#" alt="#">
-                <div class="weatherData">
-                    <p id="temperature"></p>
-                    <p id="description"></p>
-                    <p>Max: <span id="maxTemperature"></span> C°</p>
-                    <p>Min: <span id="minTemperature"></span> C°</p>
-                    <p>Humidity: <span id="humidity"></span>%</p>
-                    <p>Sunrise: <span id="sunrise"></span>am</p>
-                    <p>Sunset: <span id="sunset"></span>pm</p>
-                </div>
-            </div>
-            <div class="weatherForecast" id="weatherForecastContainer">
-                <h2>Weather Forecast</h2>
-            </div>
-        </div>
-        <div id="spotlight" class="spotlight"></div>
+      <div id="results" class="results"></div>
     </main>
     <footer>
         <div class="info_left">

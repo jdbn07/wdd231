@@ -3,6 +3,7 @@
     {
       "name": "Grupo El Rosado",
       "address": "9 de Octubre y Boyaca",
+      "offer": "10% Discount on Shampoos",
       "phoneNumbers": "(+593) 43702400",
       "website": "https://www.elrosado.com/",
       "imageUrl": "https://www.elrosado.com/Images/Inicio-Pagina-CER-NEW.jpg",
@@ -12,6 +13,7 @@
     {
       "name": "Corporacion FAVORITA",
       "address": "Quito, Ecuador: Av. General Enríquez vía Cotogchoa",
+      "offer": "20% discount on Bakery",
       "phoneNumbers": "1800 Favorita (328 674) – 1800 Supermaxi (787376)",
       "website": "https://www.corporacionfavorita.com/",
       "imageUrl": "https://www.corporacionfavorita.com/wp-content/uploads/2020/03/area-comercial-1.jpg",
@@ -21,6 +23,7 @@
     {
       "name": "Seguros Equinoccial",
       "address": "De las Hiedras N41-130 y Av. De Los Granados",
+      "offer": "10% Discount on Mousepads",
       "phoneNumbers": "18003784666",
       "website": "https://segurosequinoccial.com/",
       "imageUrl": "https://segurosequinoccial.com/wp-content/uploads/2023/02/equinoccial-respaldo-internacional.jpg.webp",
@@ -30,6 +33,7 @@
     {
       "name": "Juan Marcet",
       "address": "Calle del Batán s/n y Av. 12 de Abril - C.C. Los Nogales",
+      "offer": "5% discount on Pillows",
       "phoneNumbers": "02 4016176 / 04-4001077 Ext. 2701 - 2702",
       "website": "https://juanmarcet.com/",
       "imageUrl": "https://juanmarcet.com/wp-content/uploads/2020/09/header-tiendas.jpg",
@@ -39,6 +43,7 @@
     {
       "name": "Grupo Torres & Torres",
       "address": "Calle Rosavín Mz 53 - SL 6 y Calle Cobre / Vía a Daule Km 15",
+      "offer": "Wednesday 2x1",
       "phoneNumbers": "(+593) 95 923 6976",
       "website": "https://www.torresytorres.com/",
       "imageUrl": "https://www.torresytorres.com/wp-content/uploads/2022/08/QS-equipo.png",
@@ -48,6 +53,7 @@
     {
       "name": "OmniHospital",
       "address": "Av. Juan Tanca Marengo, Guayaquil 090513",
+      "offer": "Chicken time on Friday!",
       "phoneNumbers": "(+593)4210-9000",
       "website": "https://omnihospital.ec/",
       "imageUrl": "https://omnihospital.ec/wp-content/uploads/2024/06/FOTO-GRUPAL-OMNI.jpg",
@@ -57,6 +63,7 @@
     {
       "name": "Disensa",
       "address": "Colinas De La Alborada Manzana 785 Villa 2",
+      "offer": "5% discount for Marriages",
       "phoneNumbers": "(+593)4218-5673",
       "website": "https://disensa.com.ec/",
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1a6b5zNveQq6_zicBTqDUw8OBY-KWUOrsKw&s",

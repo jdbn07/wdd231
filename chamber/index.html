@@ -20,8 +20,9 @@
     <script src="scripts/currentYear.js" defer></script>
     <script src="scripts/lastModified.js" defer></script>
     <script src="scripts/burguerButton.js" defer></script>
-    <script src="scripts/companiesCards.js" defer></script>
     <script src="scripts/currentPage.js" defer></script>
+    <script src="scripts/openWeather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
 </head>
 <body>
     <header>
@@ -33,7 +34,7 @@
         <div class="header_right">
             <a id="menu" href="#"></a>
             <nav class="navigation">
-                <a href="index.html">Home</a>
+                <a href="index.html" class="active">Home</a>
                 <a href="directory.html" class="active">Directory</a>
                 <a href="#">Join</a>
                 <a href="#">Discover</a>
@@ -41,15 +42,33 @@
          </div>
     </header>
     <main>
-        <div class="menu">
-            <button id="grid">
-                <img src="images/grid.png" alt="Grid View" width="70">
-            </button>
-            <button id="list">
-                <img src="images/list.png" alt="List View" width="70">
-            </button>
+        <div class="hero">
+            <img src="images/chamber_guayaquil.jpg" alt="Palace of Chamber - Guayaquil City">
+            <a href="join.html" class="callToAction">Tell me more!</a>
         </div>
-        <div id="cards" class="grid"></div>
+        <h1 class="homeTitle">Home</h1>
+        <div class="home">
+            <div class="events">
+                <h2>Events</h2>
+            </div>
+            <div class="currentWeather">
+                <h2>Current Weather</h2>
+                <img id="weather-icon" src="#" alt="#">
+                <div class="weatherData">
+                    <p id="temperature"></p>
+                    <p id="description"></p>
+                    <p>Max: <span id="maxTemperature"></span> C°</p>
+                    <p>Min: <span id="minTemperature"></span> C°</p>
+                    <p>Humidity: <span id="humidity"></span>%</p>
+                    <p>Sunrise: <span id="sunrise"></span>am</p>
+                    <p>Sunset: <span id="sunset"></span>pm</p>
+                </div>
+            </div>
+            <div class="weatherForecast" id="weatherForecastContainer">
+                <h2>Weather Forecast</h2>
+            </div>
+        </div>
+        <div id="spotlight" class="spotlight"></div>
     </main>
     <footer>
         <div class="info_left">

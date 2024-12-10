@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Pailón del Diablo",
+    "caption": "It is possible to enter Pailón del Diablo through either of its two entrances. You can do so via the bridges: a direct access that will not require much walking.",
+    "width": 500,
+    "height": 350,
+    "imagefile": "pailon-del-diablo.webp"
+  },
+  {
+    "name": "Tree house or swing at the end of the world",
+    "caption": "The Tree House is one of the most important sites in Baños. It is located on the slopes of the Tungurahua volcano in the Runtún area, 2,660 meters above sea level and is a perfect viewing point to admire the imposing Tungurahua volcano and its volcanic activity. This stratovolcano is active and is located just 8 km north of the city of Baños.",
+    "width": 500,
+    "height": 350,
+    "imagefile": "casa-del-arbol.webp"
+  },
+  {
+    "name": "Hot spring pools",
+    "caption": "If you find yourself in Baños de Agua Santa you must visit the thermal baths that gave the city its name and enjoy a relaxing bath in these pools that have healing properties.",
+    "width": 500,
+    "height": 350,
+    "imagefile": "piscina-aguas-termales.webp"
+  },
+  {
+    "name": "Basilica of the Holy Baths and its museum",
+    "caption": "The Basilica of Baños is a sanctuary in honor of Our Lady of the Virgin of the Rosary of Holy Water, patron saint of the city.",
+    "width": 500,
+    "height": 350,
+    "imagefile": "basilica-banos.webp"
+  },
+  {
+    "name": "City tour on the Chebastour double-decker bus",
+    "caption": "Tour the city of Baños de Agua Santa on the Chebastour double-decker bus, through which you will enjoy the main charms of this town.",
+    "width": 500,
+    "height": 350,
+    "imagefile": "city-tour.webp"
+  },
+  {
+    "name": "San Martin Eco Zoo",
+    "caption": "The San Martín Ecozoological Park is a wildlife management center where it is possible to see a large part of Ecuador's fauna, including animals in danger of extinction, such as the spectacled bear or the Andean bear.",
+    "width": 500,
+    "height": 350,
+    "imagefile": "zoo-san-martin.webp"
+  }
+]

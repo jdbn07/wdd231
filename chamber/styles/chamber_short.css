@@ -665,3 +665,63 @@ dialog button{
       opacity: 1;
   }
 }
+#discover-h2 {
+  padding-top: 1rem;
+}
+
+#discover-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#visit-card {
+  padding: 1rem;
+  background-color: #8CFFDA;
+  border: 1px solid #008080;
+  text-align: center;
+  min-height: 90px;
+}
+
+#visit-card h3 {
+  padding-bottom: 1rem;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+}
+
+.aside-card {
+  background-color: white;
+  border: 1px solid #008080;
+  padding: 1rem;
+}
+
+.aside-card h3 {
+  background-color: #008080;
+  color: black;
+  padding: 0.5rem;
+  margin: -1rem -1rem 1rem -1rem;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.discover-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.discover-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* Hide the 8th card and onwards */
+#photo-cards .card:nth-child(n+8) {
+  display: none;
+}
+
+
+

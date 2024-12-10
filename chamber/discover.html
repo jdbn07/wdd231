@@ -23,7 +23,10 @@
     <script src="scripts/currentPage.js" defer></script>
     <script src="scripts/openWeather.js" defer></script>
     <script src="scripts/spotlight.js" defer></script>
-</head>
+    <script src="scripts/join.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
+    
 <body>
     <header>
         <img src="images/guayaquilcc_logo.png" alt="Guayaquil Chamber of Commerce" width="120" loading="lazy">
@@ -41,35 +44,46 @@
             </nav>
          </div>
     </header>
-    <main>
-        <div class="hero">
-            <img src="images/chamber_guayaquil.jpg" alt="Palace of Chamber - Guayaquil City">
-            <a href="join.html" class="callToAction">Tell me more!</a>
-        </div>
-        <h1 class="homeTitle">Home</h1>
-        <div class="home">
-            <div class="events">
-                <h2>Events</h2>
-            </div>
-            <div class="currentWeather">
-                <h2>Current Weather</h2>
-                <img id="weather-icon" src="#" alt="#">
-                <div class="weatherData">
-                    <p id="temperature"></p>
-                    <p id="description"></p>
-                    <p>Max: <span id="maxTemperature"></span> C°</p>
-                    <p>Min: <span id="minTemperature"></span> C°</p>
-                    <p>Humidity: <span id="humidity"></span>%</p>
-                    <p>Sunrise: <span id="sunrise"></span>am</p>
-                    <p>Sunset: <span id="sunset"></span>pm</p>
-                </div>
-            </div>
-            <div class="weatherForecast" id="weatherForecastContainer">
-                <h2>Weather Forecast</h2>
-            </div>
-        </div>
-        <div id="spotlight" class="spotlight"></div>
-    </main>
+    <main id="discover-main">
+      <h2 id="discover-h2">Discover Baños of Agua Santa, Tungurahua</h2>
+      <aside>
+          <section class="card" id="visit-card">
+              <h3 id="visit-message"></h3>
+          </section>
+          <!-- Card 1: Attractions -->
+          <section class="card aside-card">
+              <h3>Top Attractions</h3>
+              <p>Explore the must-visit attractions of Baños of Agua Santa:</p>
+              <ul class="discover-list">
+                  <li><strong>Pailón del Diablo:</strong> Baños has countless waterfalls, and one of the best known is the Pailón del Diablo.</li>
+                  <li><strong>Tree house or swing at the end of the world:</strong> The Tree House is one of the most famous sites in Baños.</li>
+                  <li><strong>Route of the waterfalls:</strong> If you are wondering what to do in Baños, you must take the Waterfall Route.</li>
+                  <li><strong>Hot spring pools: </strong> If you are in Baños de Agua Santa you must visit the thermal baths.</li>
+              </ul>
+          </section>
+          <!-- Card 2: Events -->
+          <section class="card aside-card">
+              <h3>Upcoming Events</h3>
+              <p>Don’t miss these exciting events happening on Baños of Agua Santa:</p>
+              <ul class="discover-list">
+                  <li><strong>Feast of the Virgin of the Rosary of Baños de Agua Santa</strong> For the celebration of this festival, the group of priors is drawn each year. They are in charge of organizing the annual festivities.</li>
+                  <li><strong>Festival of the Virgin of Baños:</strong> They visit the sanctuary weekly. The faithful celebrate the festivities on October 7th and until the end of the month, protected by Our Lady from the volcanic ash that invades the city's atmosphere.</li>
+              </ul>
+          </section>
+          <!-- Card 2: Demographics -->
+          <section class="card aside-card">
+              <h3>Demographics</h3>
+              <p>Baños, also known as Baños de Agua Santa, is an Ecuadorian city; cantonal capital of the Baños Canton, as well as the second largest and most populated city in the Province of Tungurahua. It is located in the center of the Inter-Andean Region of Ecuador, very close to the geometric center of the Ecuadorian territory; on the external flanks of the eastern mountain range of the Andes, between the Pastaza River, the Bascún River and the foothills of the Tungurahua Volcano, at an altitude of 1820 meters above sea level and with a tropical rainy climate of 19 °C on average.</p>
+              <ul class="discover-list">
+                  <li><strong>Population:</strong> Approximately 14,100 residents.</li>
+                  <li><strong>Languages Spoken:</strong> Spanish, English, and other international languages.</li>
+                  <li><strong>Residential Areas:</strong> Mix of luxury apartments, family villas, and studios.</li>
+              </ul>
+          </section>
+      </aside>
+
+      <section id="photo-cards" class="cards-section"></section>
+  </main>
     <footer>
         <div class="info_left">
             <h3>Guayaquil Chamber of Commerce</h3>

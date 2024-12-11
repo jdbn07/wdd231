@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 231 - Jim Banchon - Project - Baños de Agua Santa Home Page">
+    <meta name="author" content="Jim Banchon">
+    <title>Visit Baños de Agua Santa</title>
+
+    <!-- Social Media META Tags -->
+    <meta property="og:title" content="Visit Baños de Agua Santa">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://jdbn07.github.io/wdd231/project/images/mountain.webp">
+    <meta property="og:url" content="https://jdbn07.github.io/wdd231/proyect">
+
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <!-- SCRIPTS -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+    <!-- FAVICON -->
+    <link rel="icon" href="favicon.ico">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img id="logo-mini" src="images/mountain.webp" alt="Mountain Logo">
+            <div class="header-actions">
+                <button id="contact-button" class="bold" onclick="window.location.href='mailto:admin@banostour.com?subject=' +
+                    'Visit%20to%20Website%20Banos&body=Hello, I have a question about...';">Contact Guild</button>
+                <button id="ham-button" aria-label="menu"></button>
+            </div>
+        </div>
+        <nav class="nav-bar">
+            <a href="index.html">Home</a>
+            <a href="workshops.html">Workshops</a>
+            <a href="resources.html">Resources</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="stripe"></div>
+        <div id="home-content">
+            <div id="main-content">
+                <section id="hero">
+                    <h2>Welcome to Baños de <br>Agua Santa</h2>
+                    <picture>
+                        <source srcset="images/mountain.webp" media="(min-width: 768px)" width="1200" height="332">
+                        <img id="logo" src="images/mountain.webp" width="800" height="365" alt="Mountain Logo">
+                    </picture>
+                </section>
+                <section id="news">
+                    <h2>NEWS</h2>
+                    <img id="img1" class="body-img" src="images/Banos-Canopy.webp" width="400" height="300" loading="lazy"
+                         alt="Banos-Canopy" aria-label="Banos Canopy">
+                    <p>Puntzan Canopy!<br>Another ideal place to do extreme activities in the area is Puntzan Canopy. There you can do activities such as canopy, canyoning or canyoning, climb a Tibetan bridge next to the waterfall, take a hoverboard, do sport fishing, among others. This highly recommended place is located in San Antonio de Puntzan Km 5, via Runtún.
+                    </p>
+                    <img id="img2" class="body-img" src="images/Banos-Canopy2.jpeg" width="400" height="300" loading="lazy"
+                         alt="Banos Canopy" aria-label="Banos Canopy">
+                    <img id="img3" class="body-img" src="images/Banos-Canopy1.jpeg" width="400" height="300" loading="lazy"
+                         alt="Banos Canopy" aria-label="Banos Canopy">
+                </section>
+                <section id="tool-otm">
+                    <h2>City tour on the Chebastour bus</h2>
+                    <img class="body-img" src="images/city-tour.webp" width="400" height="320" loading="lazy"
+                         alt="City Tour" aria-label="City Tour">
+                    <p>Tour the city of Baños de Agua Santa on the Chebastour double-decker bus, through which you will enjoy the main charms of this town.
+                    </p>
+                </section>
+                <section id="about-cq">
+                    <h2>Visit Baños de Agua Santa</h2>
+                    <img class="body-img" src="images/visit-banos.webp" width="400" height="310" loading="lazy"
+                         alt="Visit Banos" aria-label="Visit Banos">
+                    <p>Baños is one of the most important and complete tourist destinations in Ecuador. It is considered the gateway to the Ecuadorian Amazon, as well as the adventure capital of Ecuador. In Baños you can do extreme activities, enjoy the abundant nature of the area, relax in the hot spring pools, enjoy the active nightlife and taste the wonderful local cuisine.  <br>
+                        <br>
+                        Because you are thinking about visiting this unmissable destination in Ecuador and to make your stay the best, in this article we want to tell you what to do in Baños.
+                    </p>
+                </section>
+            </div>
+            <aside>
+                <h2>Notes for visiting Baños</h2>
+                <section class="aside-card card">
+                    <h3>San Martin Eco Zoo</h3>
+                    <img src="images/zoo-san-martin.webp"
+                         width="400" height="210" loading="lazy" alt="Ladies at Coffee Morning" aria-label="Ladies at Coffee Morning">
+                    <p>The San Martín Ecozoological Park is a wildlife management center where it is possible to see a large part of Ecuador's fauna, including animals in danger of extinction, such as the spectacled bear or the Andean bear.</p>
+                </section>
+                <section class="aside-card card">
+                    <h3>Full day tour schedules</h3>
+                    <p>Leave us your email to send you the schedules of the city tours and tourist places.</p>
+                    <form id="newsletter-form">
+                        <label for="email">Your email:
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required></label>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </section>
+                <section class="aside-card card">
+                    <h3>Bicycle, motorbike, 4x4 and ATV rentals for the waterfall route.</h3>
+                    <img src="images/tour-bike.jpg" id="tour-bike"
+                         width="400" height="134" loading="lazy" alt="Tour Bike" aria-label="Tour Bike">
+                    <p>Another recommended activity in Baños is to rent bicycles, motorcycles or 4×4 vehicles to explore the waterfall route. Discovering the charms of Baños on wheels will be a safe and rewarding experience because the pleasant climate is conducive to doing so. If you choose to rent any of these means of transport, you can make stops at the different waterfalls, and you can even get to the city of Puyo, capital of the province of Pastaza, in eastern Ecuador.</p>
+                </section>
+            </aside>
+            <!-- Modal -->
+            <div id="newsletter-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Thank You!</h2>
+                    <p>Your email address has been submitted. You will start receiving schedules of the city tours and tourist places.</p>
+                </div>
+            </div>
+        </div>
+        <div class="stripe"></div>
+    </main>
+
+    <footer>
+        <div id="contact">
+            <p class="bold"><img class="favicon-img" src="favicon.ico" alt="Capital Quilters Icon" width="16" height="16">&nbsp; Visit Baños de Agua Santa</p>
+            <p>Baños de Agua Santa</p>
+            <p>Tungurahua, Ecuador</p>
+            <p>contact@banostous.ec</p>
+        </div>
+        <div>
+            <img class="socials" src="images/facebook_icon.webp" alt="FaceBook" width="100" height="100">
+            <img class="socials" src="images/x_icon.webp" alt="Twitter" width="100" height="99">
+            <img class="socials" src="images/instagram_icon.webp" alt="Linked In" width="100" height="100">
+        </div>
+        <div id="info">
+            <p>WDD 231 Class Project &nbsp; Jim Banchon</p>
+            <!--Get current year and display with copyright information-->
+            <p id="copyright"> &#169; <span id="currentyear"></span> Visit Baños de Agua Santa </p>
+            <!--Get the date that the document was last modified and display-->
+            <p>Last modified:</p>
+            <div id="lastmodified"></div>
+        </div>
+    </footer>
+</body>
+
+</html>

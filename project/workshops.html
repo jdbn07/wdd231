@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 231 - Jim Banchon - Project - Baños de Agua Santa Home Page">
+    <meta name="author" content="Jim Banchon">
+    <title>Visit Baños de Agua Santa</title>
+
+    <!-- Social Media META Tags -->
+    <meta property="og:title" content="Visit Baños de Agua Santa">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://jdbn07.github.io/wdd231/project/images/mountain.webp">
+    <meta property="og:url" content="https://jdbn07.github.io/wdd231/proyect">
+
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <!-- SCRIPTS -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/lastModified.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
+    <script src="scripts/workshop-form.js" defer></script>
+    <script src="scripts/workshops.js" defer></script>
+    <!-- FAVICON -->
+    <link rel="icon" href="favicon.ico">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img id="logo-mini" src="images/mountain.webp" alt="Mountain Logo">
+            <div class="header-actions">
+                <button id="contact-button" class="bold" onclick="window.location.href='mailto:admin@banostour.com?subject=' +
+                    'Visit%20to%20Website%20Banos&body=Hello, I have a question about...';">Contact Guild</button>
+                <button id="ham-button" aria-label="menu"></button>
+            </div>
+        </div>
+        <nav class="nav-bar">
+            <a href="index.html">Home</a>
+            <a href="workshops.html">Places to visit</a>
+            <a href="resources.html">Resources</a>
+        </nav>
+    </header>
+
+    <main>
+      <div class="stripe"></div>
+      <div>
+          <div id="buttons">
+              <button id="all-button" class="workshop-button">All Places</button>
+              <button id="quilt-button" class="workshop-button">Adventure</button>
+              <button id="bag-button" class="workshop-button">Viewpoints</button>
+              <button id="dress-button" class="workshop-button">Zoo and Parks</button>
+              <button id="decor-button" class="workshop-button">Others</button>
+          </div>
+          <h2 id="workshops-heading"></h2>
+          <section id="workshops-container"></section>
+      </div>
+      <div class="stripe"></div>
+  </main>
+
+    <footer>
+        <div id="contact">
+            <p class="bold"><img class="favicon-img" src="favicon.ico" alt="Capital Quilters Icon" width="16" height="16">&nbsp; Visit Baños de Agua Santa</p>
+            <p>Baños de Agua Santa</p>
+            <p>Tungurahua, Ecuador</p>
+            <p>contact@banostous.ec</p>
+        </div>
+        <div>
+            <img class="socials" src="images/facebook_icon.webp" alt="FaceBook" width="100" height="100">
+            <img class="socials" src="images/x_icon.webp" alt="Twitter" width="100" height="99">
+            <img class="socials" src="images/instagram_icon.webp" alt="Linked In" width="100" height="100">
+        </div>
+        <div id="info">
+            <p>WDD 231 Class Project &nbsp; Jim Banchon</p>
+            <!--Get current year and display with copyright information-->
+            <p id="copyright"> &#169; <span id="currentyear"></span> Visit Baños de Agua Santa </p>
+            <!--Get the date that the document was last modified and display-->
+            <div id="lastModified"></div>
+        </div>
+    </footer>
+</body>
+
+</html>
